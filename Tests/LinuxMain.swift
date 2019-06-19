@@ -1,5 +1,4 @@
 import XCTest
-
 import JWTKitTests
 
 var tests = [XCTestCaseEntry]()
