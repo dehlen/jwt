@@ -16,11 +16,16 @@ extension JWTKitTests {
         ("testRSASignWithPublic", testRSASignWithPublic),
         ("testSigners", testSigners),
     ]
+
+    static let __allTests__JWKTests = [
+        ("testJWKSigner", testJWKSigner)
+    ]
 }
 
 public func __allTests() -> [XCTestCaseEntry] {
     return [
         testCase(JWTKitTests.__allTests__JWTKitTests),
+        testCase(JWTKitTests.__allTests__JWKTests),
     ]
 }
 #endif
